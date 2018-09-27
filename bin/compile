@@ -17,7 +17,7 @@ source $bp_dir/bin/common.sh
 # Output npm debug info on error
 trap cat_npm_debug_log ERR
 
-node_version=0.10.33
+node_version=8.x
 
 # Download node from Heroku's S3 mirror of nodejs.org/dist
 status "Downloading and installing node"
